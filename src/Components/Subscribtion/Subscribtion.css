@@ -1,0 +1,155 @@
+.subscribtion{
+    width: 75%;
+    height:60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 120px;
+    background: linear-gradient(180deg,#fde1ff 0%,#d1ffea22 60%);
+    gap: 30px;
+    margin-top: 300px;
+    margin-left: 15%; 
+    margin-bottom: 130px;
+}
+.subscribtion h1{
+    color: #454545;
+    font-size: 40px;
+    font-weight: 500;
+}
+.subscribtion p{
+    color: #454545;
+    font-size: 15px;
+}
+.subscribtion div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 730px;
+    height: 70px;
+    border: 1px solid #e3e3e3;
+
+}
+.subscribtion input{
+    width: 500px;
+    margin-left:30px;
+    border: none;
+    outline: none;
+    color: #616161;
+    font-family: poppins;
+    font-size: 16px;
+}
+.subscribtion button{
+ width: 210px;
+  height: 70px;
+  border-radius: 5%;
+  background: black;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+@media(max-width:1280px){
+    .subscribtion{
+        padding: 0px 80px;
+        margin-bottom: 120px;
+        gap: 20px;
+    }
+    .subscribtion h1{
+        font-size: 36px;
+    }
+    .subscribtion p{
+    font-size: 16px;
+    }
+    .subscribtion div{
+        width: 600px;
+        height: 60px;
+    }
+    .subscribtion div input{
+        width: 400px;  
+    }
+    .subscribtion div button{
+        width: 160px;
+        height: 60px;
+    }
+}
+@media(max-width:1024px){
+    .subscribtion{
+        margin-bottom: 60px;
+    }
+    .subscribtion h1{
+        font-size: 30px;
+    }
+    .subscribtion p{
+    font-size: 14px;
+    }
+    .subscribtion div{
+        width: 500px;
+        height: 50px;
+    }
+    .subscribtion div input{
+        width: 300px;
+        font-size: 14px;
+    }
+    .subscribtion div button{
+        width: 120px;
+        height: 50px;
+        font-size: 14px;
+    }
+}
+@media(max-width:800px){
+    .subscribtion{
+        margin-bottom: 30px;
+        height: 70vh;
+        width: 80%;
+        margin-left: 9.5%;
+    }
+    .subscribtion h1{
+        font-size: 18px;
+    }
+    .subscribtion p{
+    font-size: 12px;
+    }
+    .subscribtion div{
+        width: 400px;
+        height: 40px;
+    }
+    .subscribtion div input{
+        width: 200px;
+        font-size: 13px;
+    }
+    .subscribtion div button{
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+    }
+}
+@media(max-width:500px){
+    .subscribtion{
+        margin-bottom: 30px;
+        height: 60vh;
+        gap: 15px;
+        width: 80%;
+        margin-top: 795px;
+    }
+    .subscribtion h1{
+        font-size: 16px;
+    }
+    .subscribtion p{
+    font-size: 13px;
+    max-width: 200px;
+    text-align: center;
+    }
+    .subscribtion div{
+        width: 290px;
+    }
+    .subscribtion div input{
+        width: 130px;
+    }
+    .subscribtion div button{
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+    }
+}
